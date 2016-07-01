@@ -1,5 +1,5 @@
 #!/bin/bash
-array=(${GIT_BASE_PATH}/*)
+array=(${GIT_BASE_PATH}/.niogit/*)
 for repo_path in "${array[@]}";
 do cd ${repo_path};
 repo_name=$(basename $repo_path)
